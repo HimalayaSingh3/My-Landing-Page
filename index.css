@@ -1,0 +1,193 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    font-family: monospace;
+}
+body{
+    height:100vh;
+    width:100%;
+    background-color: white;
+    color:black;
+}
+.container{
+    gap:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:140px;
+    background:rgb(59, 182, 135);
+    gap:10px;
+}
+.bg p{
+    text-align: center;
+    width:400px;
+}
+button{
+    color:black;
+    background:white;
+    cursor: pointer;
+    padding:3px 6px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    margin-top: 15px;
+}
+img{
+    height:200px;
+}
+.socials{
+    display: flex;
+    gap:20px;
+    font-size: 25px;
+    margin-top: 200px;
+}
+#social1{
+    color:rgb(255, 0, 43);
+}
+#social2{
+    color:black;
+}
+#social3{
+    color:blue;
+}
+#social4{
+    color:purple;
+}
+.socials a{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    background: #ffffff;
+    height:40px;
+    width:40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.links a{
+    font-weight: 700;
+    font-size: 20px;
+}
+.portfolio,.work,.achives,.ex{
+    font-size: 15px;
+    height:40px;
+    width:320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff; 
+    border-radius: 10px;
+    padding: 0px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.portfolio{
+    border-bottom: 5px solid red;
+}
+.work{
+    border-bottom: 5px solid blue;
+}
+.ex{
+    border-bottom: 5px solid rgb(255, 238, 0);
+}
+.achives{
+    border-bottom: 5px solid green;
+}
+.portfolio,.work,.achives,.ex i{
+    color:rgb(0, 0, 0);
+}
+.portfolio a{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+.work a{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+.achives a{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+.ex a{
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+}
+.link{
+    position: relative;
+    right:130px;
+}
+.touch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.touch .get{
+    position: relative;
+    right:90px;
+}
+.touch a{
+    font-weight: 700;
+    font-size: 20px;
+}
+.touch h4{
+    font-size: 25px;
+}
+.mail{
+    color:black;
+    background:rgb(59, 182, 135);
+    width:320px;
+    border-radius: 10px;
+    border:1px solid grey;
+    gap:10px;
+    padding:20px 18px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mail i{
+    font-size: 30px;
+}
+.mail h4{
+    font-weight: 700;
+}
+.mail a{
+    font-weight: 600;
+    font-size: 15px;
+}
+.mail p{
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
+.fa-envelope{
+    color:rgb(233, 23, 23);
+}
+.fa-copyright{
+    font-size: 10px;
+    color:blue;
+}
+.fa-heart{
+    font-size: 15px;
+    color:red;
+}
+.touch .love{
+    font-size: 15px;
+    padding:10px;
+}
